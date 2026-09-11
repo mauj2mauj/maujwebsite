@@ -9,7 +9,7 @@ import { api } from "../../api.js";
 import { useAuth } from "../../contexts/AuthContext.jsx";
 import Tracker from "./Tracker.jsx";
 import AdminGate from "./AdminGate.jsx";
-import AuthForms from "./AuthForms.jsx";
+// import AuthForms from "./AuthForms.jsx";
 
 export default function MaujSection() {
   const { user, loading, logout } = useAuth();
@@ -113,7 +113,7 @@ export default function MaujSection() {
         <div className="au-loading"><Loader2 className="au-spin" size={22} /> Loading…</div>
       )}
 
-      {!loading && !user && <AuthForms />}
+      /* {!loading && !user && <AuthForms />} */
 
       {!loading && user && (
         <>
