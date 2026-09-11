@@ -8,7 +8,7 @@ import { emptyEntry } from "../../utils.js";
 import { api } from "../../api.js";
 import { useAuth } from "../../contexts/AuthContext.jsx";
 import Tracker from "./Tracker.jsx";
-import AdminGate from "./AdminGate.jsx";
+// import AdminGate from "./AdminGate.jsx";
 // import AuthForms from "./AuthForms.jsx";
 
 export default function MaujSection() {
