@@ -185,8 +185,7 @@ function Home({ setPage }) {
       <Rule />
 
       <section className="au-quote-strip">
-        <p className="au-gur">"ਸਿਰਜਣਹਾਰ ਕੌਣ? ਜੋ ਅਸਫਲ ਹੋਣ ਤੇ ਵੀ ਸਫਲਤਾ ਲਈ ਉੱਦਮ ਕਰਦਾ ਹੀ ਰਹੇ"</p>
-        <p className="au-quote-en">The truly creative one keeps striving for success, even through failure.</p>
+        <p className="au-gur">"ਸਿਰੜੀ ਕੌਣ? ਜੋ ਅਸਫਲ ਹੋਣ ਤੇ ਵੀ ਸਫਲਤਾ ਲਈ ਉੱਦਮ ਕਰਦਾ ਹੀ ਰਹੇ"</p>
       </section>
     </div>
   );
